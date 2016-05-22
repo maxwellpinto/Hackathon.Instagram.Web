@@ -1,0 +1,19 @@
+﻿@model Hackathon.Instagram.Core.Models.UserInfo
+
+<div class="jumbotron">
+    <h1>Hackathon Instagram</h1>    
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <h2>Picture</h2>
+        <img src="@Model.ProfilePicture" />
+    </div>
+    <div class="col-md-4">
+        <h2>User Info</h2>
+        <p>@Html.DisplayNameFor(model => model.FullName)</p>        
+        <p>@Html.DisplayFor(model => model.Username)</p>
+    </div>
+    
+        
+    
+</div>
